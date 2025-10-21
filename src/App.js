@@ -302,11 +302,12 @@ function App() {
         </main>
 
         {/* Footer */}
-        <footer className="text-center py-8">
-          <p className="text-white/60 font-light">
-            Made with ❤️ for wanderers and dreamers
-          </p>
-        </footer>
+
+          <footer className="text-center py-8">
+               <p className="text-white/60 font-light">
+                 Designed & developed by Madan Y
+               </p>
+          </footer>
       </div>
     </div>
   );
