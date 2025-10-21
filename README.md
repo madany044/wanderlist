@@ -33,11 +33,4 @@ Plan, save, and explore your favorite places, and check **real-time weather** fo
 
 ---
 
-## Installation & Local Setup
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/<your-username>/wanderlist.git
-cd wanderlist
-
 
