@@ -1,16 +1,43 @@
-# React + Vite
+# WanderList 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **full-stack travel planner web app** built with **React, Node.js, Flask, MongoDB, and Tailwind CSS**.  
+Plan, save, and explore your favorite places, and check **real-time weather** for any city.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+[ https://inspiring-kelpie-c33cfd.netlify.app/ ]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Tailwind CSS, Heroicons, Vite  
+- **Backend:** Node.js, Express.js, MongoDB Atlas  
+- **Microservice:** Python Flask (Weather API integration)  
+- **Deployment:** Netlify (Frontend), Render (Backend + Flask)  
+- **API Integration:** OpenWeatherAPI  
+
+---
+
+## 📌 Features
+
+1. **CRUD Operations** – Add, view, and delete your favorite places.  
+2. **Weather Info** – Fetch real-time weather for any city using a Flask microservice.  
+3. **Single Page App** – Smooth UI with cards, responsive design, and Tailwind animations.  
+4. **Deployment Ready** – Fully live on Netlify & Render.  
+5. **Error Handling** – Friendly messages for invalid cities or API errors.
+
+---
+
+---
+
+## Installation & Local Setup
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/wanderlist.git
+cd wanderlist
+
+
