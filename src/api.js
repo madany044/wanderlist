@@ -24,5 +24,3 @@ export async function getWeather(city) {
   const res = await fetch(`${API_BASE}/weather/${city}`);
   return res.json();
 }
-
-

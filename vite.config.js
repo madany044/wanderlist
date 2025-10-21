@@ -6,5 +6,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true
+  },
+  // This ensures environment variables are available
+  define: {
+    'process.env': {}
   }
 })
